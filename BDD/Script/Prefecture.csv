@@ -1,0 +1,96 @@
+1,01,Ain,Bourg-en-Bresse,Rhône-Alpes
+2,02,Aisne,Laon,Picardie
+3,03,Allier,Moulins,Auvergne
+4,04,Alpes de Hautes-Provence,Digne,Provence-Alpes-Côte d'Azur
+5,05,Hautes-Alpes,Gap,Provence-Alpes-Côte d'Azur
+6,06,Alpes-Maritimes,Nice,Provence-Alpes-Côte d'Azur
+7,07,Ardèche,Privas,Rhône-Alpes
+8,08,Ardennes,Charleville-Mézières,Champagne-Ardenne
+9,09,Ariège,Foix,Midi-Pyrénées
+10,10,Aube,Troyes,Champagne-Ardenne
+11,11,Aude,Carcassonne,Languedoc-Roussillon
+12,12,Aveyron,Rodez,Midi-Pyrénées
+13,13,Bouches-du-Rhône,Marseille,Provence-Alpes-Côte d'Azur
+14,14,Calvados,Caen,Basse-Normandie
+15,15,Cantal,Aurillac,Auvergne
+16,16,Charente,Angoulême,Poitou-Charentes
+17,17,Charente-Maritime,La Rochelle,Poitou-Charentes
+18,18,Cher,Bourges,Centre
+19,19,Corrèze,Tulle,Limousin
+20,2A,Corse-du-Sud,Ajaccio,Corse
+21,2B,Haute-Corse,Bastia,Corse
+22,21,Côte-d'Or,Dijon,Bourgogne
+23,22,Côtes d'Armor,Saint-Brieuc,Bretagne
+24,23,Creuse,Guéret,Limousin
+25,24,Dordogne,Périgueux,Aquitaine
+26,25,Doubs,Besançon,Franche-Comté
+27,26,Drôme,Valence,Rhône-Alpes
+28,27,Eure,Évreux,Haute-Normandie
+29,28,Eure-et-Loir,Chartres,Centre
+30,29,Finistère,Quimper,Bretagne
+31,30,Gard,Nîmes,Languedoc-Roussillon
+32,31,Haute-Garonne,Toulouse,Midi-Pyrénées
+33,32,Gers,Auch,Midi-Pyrénées
+34,33,Gironde,Bordeaux,Aquitaine
+35,34,Hérault,Montpellier,Languedoc-Roussillon
+36,35,Ille-et-Vilaine,Rennes,Bretagne
+37,36,Indre,Châteauroux,Centre
+38,37,Indre-et-Loire,Tours,Centre
+39,38,Isère,Grenoble,Rhône-Alpes
+40,39,Jura,Lons-le-Saunier,Franche-Comté
+41,40,Landes,Mont-de-Marsan,Aquitaine
+42,41,Loir-et-Cher,Blois,Centre
+43,42,Loire,Saint-Étienne,Rhône-Alpes
+44,43,Haute-Loire,Le Puy-en-Velay,Auvergne
+45,44,Loire-Atlantique,Nantes,Pays de la Loire
+46,45,Loiret,Orléans,Centre
+47,46,Lot,Cahors,Midi-Pyrénées
+48,47,Lot-et-Garonne,Agen,Aquitaine
+49,48,Lozère,Mende,Languedoc-Roussillon
+50,49,Maine-et-Loire,Angers,Pays de la Loire
+51,50,Manche,Saint-Lô,Basse-Normandie
+52,51,Marne,Châlons-en-Champagne,Champagne-Ardenne
+53,52,Haute-Marne,Chaumont,Champagne-Ardenne
+54,53,Mayenne,Laval,Pays de la Loire
+55,54,Meurthe-et-Moselle,Nancy,Lorraine
+56,55,Meuse,Bar-le-Duc,Lorraine
+57,56,Morbihan,Vannes,Bretagne
+58,57,Moselle,Metz,Lorraine
+59,58,Nièvre,Nevers,Bourgogne
+60,59,Nord,Lille,Nord-Pas-de-Calais
+61,60,Oise,Beauvais,Picardie
+62,61,Orne,Alençon,Basse-Normandie
+63,62,Pas-de-Calais,Arras,Nord-Pas-de-Calais
+64,63,Puy-de-Dôme,Clermont-Ferrand,Auvergne
+65,64,Pyrénées-Atlantiques,Pau,Aquitaine
+66,65,Hautes-Pyrénées,Tarbes,Midi-Pyrénées
+67,66,Pyrénées-Orientales,Perpignan,Languedoc-Roussillon
+68,67,Bas-Rhin,Strasbourg,Alsace
+69,68,Haut-Rhin,Colmar,Alsace
+70,69,Rhône,Lyon,Rhône-Alpes
+71,70,Haute-Saône,Vesoul,Franche-Comté
+72,71,Saône-et-Loire,Mâcon,Bourgogne
+73,72,Sarthe,Le Mans,Pays de la Loire
+74,73,Savoie,Chambéry,Rhône-Alpes
+75,74,Haute-Savoie,Annecy,Rhône-Alpes
+76,75,Paris,Paris,Ile-de-France
+77,76,Seine-Maritime,Rouen,Haute-Normandie
+78,77,Seine-et-Marne,Melun,Ile-de-France
+79,78,Yvelines,Versailles,Ile-de-France
+80,79,Deux-Sèvres,Niort,Poitou-Charentes
+81,80,Somme,Amiens,Picardie
+82,81,Tarn,Albi,Midi-Pyrénées
+83,82,Tarn-et-Garonne,Montauban,Midi-Pyrénées
+84,83,Var,Toulon,Provence-Alpes-Côte d'Azur
+85,84,Vaucluse,Avignon,Provence-Alpes-Côte d'Azur
+86,85,Vendée,La Roche-sur-Yon,Pays de la Loire
+87,86,Vienne,Poitiers,Poitou-Charentes
+88,87,Haute-Vienne,Limoges,Limousin
+89,88,Vosges,Épinal,Lorraine
+90,89,Yonne,Auxerre,Bourgogne
+91,90,Territoire-de-Belfort,Belfort,Franche-Comté
+92,91,Essonne,Évry,Ile-de-France
+93,92,Hauts-de-Seine,Nanterre,Ile-de-France
+94,93,Seine-Saint-Denis,Bobigny,Ile-de-France
+95,94,Val-de-Marne,Créteil,Ile-de-France
+96,95,Val-d'Oise,Pontoise,Ile-de-France

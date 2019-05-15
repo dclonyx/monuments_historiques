@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+ }
+
+//  mixin mediaquerie
+
+@mixin media-min($_min-width){
+    @media screen and (min-width: $_min-width){
+        @content;
+    }
+}
+
+@mixin height-min($_min-heigth){
+    @media screen and (min-height: $_min-heigth){
+        @content;
+    }
+}
+
+// variables
+
+$header-bg: #795548;
+$Phone: 480px;
+$Tablet: 768px;
+$Destop: 1024px;
+
+ /* style de la carte de france */
+
+.jqvmap-label{
+	position: absolute;
+	display: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #292929;
+	color: white;
+	font-family: sans-serif, Verdana;
+	font-size: smaller;
+	padding: 3px;
+}
+
+.jqvmap-zoomin, .jqvmap-zoomout{
+	position: absolute;
+	left: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #795548;
+	padding: 3px;
+	color: white;
+	cursor: pointer;
+	line-height: 10px;
+	text-align: center;
+	box-shadow: 0 0 1px white;
+}
+
+.jqvmap-zoomin{
+	top: 10px;
+}
+
+.jqvmap-zoomout{
+	top: 30px;
+}
+
+.jqvmap-region{
+  cursor: pointer;
+}
+
+.jqvmap-ajax_response{
+  width: 100%;
+  height: 500px;
+}
+
+/* style de la page index */
+
+h1{
+	text-transform: uppercase;
+    font-size: 0.5em;
+    @include media-min ($Phone){
+        font-size: 0.8em;
+    }
+    @include media-min ($Tablet){
+        font-size: 1.2em;
+    }
+    @include media-min (900px){
+        font-size: 1.6em;
+    }
+    @include media-min ($Destop){
+        font-size: 1.9em;
+    }
+}
+h2{
+    @include media-min ($Destop){
+        padding: 20px;
+    } 
+}
+header{
+	position: fixed;
+	top: 0;
+	text-align: center;
+	height: 50px;
+	background-color: $header-bg;
+	width: 100%;
+	line-height: 50px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+	z-index: 2;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #8D6E63;
+}
+#carte{
+	height: 100%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#francemap{
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+	@include height-min (920px){
+		margin-top: 50px;;
+    }
+}
+footer{
+	background-color: #BCAAA4;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	bottom: 0;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+	line-height: 50px;
+	text-align: center;
+	@include height-min (920px){
+		position: fixed;
+    }
+}
+
+.lien{
+	font-size: 1em;
+    margin-left: 20px;
+    &:visited{
+        color: blue;
+    }
+}
+.build {
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-top : 10px;
+	margin-right : 20px;
+    color: black;
+    &:hover span{ 
+        display:block; 
+    }
+    span{	
+        display:none;
+        color:#fff;
+        background: $header-bg;
+        border-radius: 25px;
+        width:150px;
+        text-align:center;
+        position: absolute;
+        z-index:10;
+        transform: translate(-100px, -95px);
+    }
+}
+
+/* Gestion page mention legal */
+
+main{
+	margin-top: 70px;
+}
+
+.bouton{
+	position: fixed;
+	top: 5px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	z-index: 10;
+}
+
+.taille{
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+img{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+h2{
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+/*  page departement */
+
+#map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+	height: 100vh;
+	z-index: 1;
+}
+
+.carte{
+	position: fixed;
+	top: 90px;
+	left: 3px;
+	width: 50px;
+	height: 50px;
+	z-index: 10;
+}
+
+.leaflet-control-zoom-in{
+	box-shadow: 0 0 5px black;
+}
+
+.leaflet-control-zoom-out{
+	box-shadow: 0 0 5px black;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+	background: #BCAAA4 ! important;
+}
+
+/* page photo */
+
+.photos{
+	margin-top: 90px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.bloc{
+	width: 90%;
+    @include media-min ($Tablet){
+		width: 40%;
+    }
+    @include media-min ($Destop){
+		width: 30%;
+    }
+}
+.footer_photo{
+	position: fixed;
+}
